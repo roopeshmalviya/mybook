@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mybook.entity.User;
 
 @RestController
-@RequestMapping("/getUser")
+@RequestMapping("/user")
 public class UserController {
 	
 	@GetMapping
